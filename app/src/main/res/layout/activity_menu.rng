@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="androidx.constraintlayout.widget.ConstraintLayout"/>
+    </start>
+    <define name="androidx.constraintlayout.widget.ConstraintLayout">
+        <element name="androidx.constraintlayout.widget.ConstraintLayout">
+            <optional>
+                <attribute name="app:layout_constraintBottom_toBottomOf">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="app:layout_constraintEnd_toEndOf">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="app:layout_constraintHorizontal_bias">
+                    <data type="decimal"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="app:layout_constraintStart_toStartOf">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="app:layout_constraintTop_toTopOf">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="app:layout_constraintVertical_bias">
+                    <data type="decimal"/>
+                </attribute>
+            </optional>
+            <attribute name="android:background"/>
+            <optional>
+                <attribute name="android:id"/>
+            </optional>
+            <attribute name="android:layout_height">
+                <data type="NMTOKEN"/>
+            </attribute>
+            <attribute name="android:layout_width">
+                <data type="NMTOKEN"/>
+            </attribute>
+            <optional>
+                <attribute name="tools:context">
+                    <data type="NMTOKEN"/>
+                </attribute>
+            </optional>
+            <zeroOrMore>
+                <element name="TextView">
+                    <attribute name="app:layout_constraintBottom_toBottomOf">
+                        <data type="NCName"/>
+                    </attribute>
+                    <attribute name="app:layout_constraintEnd_toEndOf">
+                        <data type="NCName"/>
+                    </attribute>
+                    <attribute name="app:layout_constraintHorizontal_bias">
+                        <data type="decimal"/>
+                    </attribute>
+                    <attribute name="app:layout_constraintStart_toStartOf">
+                        <data type="NCName"/>
+                    </attribute>
+                    <attribute name="app:layout_constraintTop_toTopOf">
+                        <data type="NCName"/>
+                    </attribute>
+                    <attribute name="app:layout_constraintVertical_bias">
+                        <data type="decimal"/>
+                    </attribute>
+                    <attribute name="android:fontFamily"/>
+                    <attribute name="android:layout_height">
+                        <data type="NMTOKEN"/>
+                    </attribute>
+                    <attribute name="android:layout_width">
+                        <data type="NMTOKEN"/>
+                    </attribute>
+                    <attribute name="android:text"/>
+                    <attribute name="android:textColor"/>
+                    <attribute name="android:textSize">
+                        <data type="NMTOKEN"/>
+                    </attribute>
+                    <attribute name="android:textStyle">
+                        <data type="NCName"/>
+                    </attribute>
+                </element>
+            </zeroOrMore>
+            <optional>
+                <ref name="androidx.constraintlayout.widget.ConstraintLayout"/>
+            </optional>
+        </element>
+    </define>
+</grammar>

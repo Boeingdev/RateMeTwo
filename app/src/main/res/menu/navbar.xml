@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/home_2"/>
+    <item
+        android:id="@+id/repeat"
+        android:title=""
+        android:background="@drawable/circle_shape"
+        android:icon="@drawable/arrow"/>
+    <item
+        android:id="@+id/next"
+        android:title=""
+        android:icon="@drawable/right_arrow"/>
+
+</menu>

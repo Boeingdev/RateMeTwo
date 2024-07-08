@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">RateMe</string>
+
+    <!-- INTRO 1-->
+    <string name="intro_1_main_msg">See your emotions in one selfie</string>
+    <string name="intro_1_name">What\'s your name?</string>
+    <string name="intro_1_take_photo">Take your first photo</string>
+    <string name="intro_1_terms">By entering you agree to the terms and conditions</string>
+
+    <!--RESULTS (MAINACTIVITY) -->
+
+    <string name="results_you_are">You are </string>
+    <string name="results">Results</string>
+    <string name="results_anger">Anger: </string>
+    <string name="results_contempt">Contempt: </string>
+    <string name="results_disgust">Disgust: </string>
+    <string name="results_fear">Fear: </string>
+    <string name="results_happy">Happy: </string>
+    <string name="results_neutral">Neutral: </string>
+    <string name="results_sad">Sad: </string>
+    <string name="results_surprise">Surprise: </string>
+
+    <!-- MENU -->
+    <string name="menu">Menu</string>
+    <string name="menu_hello">Hello </string>
+    <string name="menu_pictures">Pictures taked</string>
+    <string name="menu_Lvl">Lvl</string>
+    <string name="menu_objective">Objective: </string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_takephoto">Take a photo</string>
+    <string name="menu_gallery">From gallery</string>
+    <!-- ALERTS-->
+
+    <string name="something_wrong">Something just went wrong =(</string>
+    <string name="alert_no_name">Put a name >:( </string>
+    <string name="introduce_name">Introduce your name</string>
+    <string name="let_us_know_name">Let us know how to call you</string>
+    <string name="camera_permission_denied">You denied camera permission, we can\'t take photos</string>
+</resources>
